@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+          body {
+      margin: 0;
+      padding: 0;
+      background-color: white;
+      color: black;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    header {
+      background-color: #99BC85;
+      text-align: center;
+      color: white;
+      padding: 30px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 40px;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      font-size: 18px;
+    }
+
+    nav {
+      background-color: #BFD8AF;
+      text-align: center;
+      padding: 12px;
+    }
+
+    nav a {
+      color: black;
+      font-weight: bold;
+      padding: 10px 15px;
+      display: inline-block;
+    }
+
+    nav a:hover {
+      background-color: #99BC85;
+      color: white;
+      border-radius: 5px;
+    }
+
+    section {
+      padding: 40px;
+      text-align: center;
+    }
+
+    #about {
+      background-color: #D4E7C5;
+      border-radius: 10px;
+      width: 80%;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    #about img {
+      border-radius: 50%;
+      border: 3px solid #99BC85;
+      margin: 15px 0;
+    }
+
+    #skills {
+      background-color: #BFD8AF;
+      border-radius: 10px;
+      width: 80%;
+      margin: 20px;
+      padding: 20px;
+    }
+
+    ul {
+      width: 40%;
+      margin: auto;
+      text-align: left;
+    }
+
+    #table {
+      background-color: #D4E7C5;
+      border-radius: 10px;
+      width: 80%;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    table {
+      width: 100%;
+      margin: 20px auto;
+      background-color: white;
+    }
+
+    th, td {
+      border: 1px solid #99BC85;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #99BC85;
+      color: white;
+    }
+
+    #projects {
+      background-color: #BFD8AF;
+      border-radius: 10px;
+      width: 80%;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    #contact {
+      background-color: #D4E7C5;
+      border-radius: 10px;
+      width: 80%;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    form {
+      width: 70%;
+      margin: auto;
+      text-align: left;
+    }
+
+    input, textarea, select {
+      width: 100%;
+      padding: 8px;
+      margin: 5px 0 15px 0;
+      border: 1px solid #99BC85;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: #99BC85;
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+    footer {
+      background-color: #99BC85;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-weight: bold;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header">
+        <h1>Wajeeha</h1>
+        <br>
+        <p><strong>Software Engineer </strong>| Web Developer</p>
+        </div>
+    </header>
+    <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+   <!-- About Section -->
+<section id="about me">
+<h2>About Me</h2>
+<img src="image.jpg" alt="Profile Picture" width="150" height="150">
+<p>Hey! I'm <b>Wajeeha</b>, a Software Engineering student from Pakistan.  
+    I enjoy designing creative web pages using <em>HTML, CSS, and JavaScript</em>.  
+    My goal is to become a skilled Frontend Developer.</p>
+    <p><mark>Fun fact:</mark> I love <u>designing digital art</u> and <u>learning new coding tricks</u>!</p>
+</section>
+ <!-- Skills Section -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <ul>
+      <li>HTML5 & CSS3</li>
+      <li>JavaScript Basics</li>
+      <li>C++ Programming</li>
+      <li>Graphic Design (Illustrator, Photoshop)</li>
+      <li>Communication & Teamwork</li>
+    </ul>
+  </section>
+<!--contact form-->
+<section id="table">
+ <h2>Qualification</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Degree</th>
+          <th>Institution</th>
+          <th>Year</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Matriculation</td>
+          <td>Kcgs</td>
+          <td>2020</td>
+        </tr>
+        <tr>
+          <td>Intermediate</td>
+          <td>Punjab College</td>
+          <td>2022</td>
+        </tr>
+        <tr>
+          <td>BS Software Engineering</td>
+          <td>University </td>
+          <td>In Progress</td>
+        </tr>
+      </tbody>
+    </table>
+</section>
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+      <h3> Portfolio Website</h3>
+      <p>Created my first personal portfolio using <small>HTML and CSS</small>.</p>
+    <br>
+      <h3> C++ Diet Management System</h3>
+      <p>Developed a console-based program that manages patients diet plans and progress reports.</p>
+  </section>
+   <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" placeholder="Enter your name">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email">
+
+      <label for="country">Country:</label>
+      <select id="country">
+        <option>Pakistan</option>
+        <option>India</option>
+        <option>USA</option>
+        <option>Other</option>
+      </select>
+
+      <label for="message">Message:</label>
+      <textarea id="message" rows="4" placeholder="Your message here..."></textarea>
+
+     <button>Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p> Wajeeha| Designed with using HTML and inline CSS</p>
+  </footer>
+</body>
+</html>
